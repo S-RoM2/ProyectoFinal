@@ -1,0 +1,357 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 mar. 2020, 11:24:52
+    Author     : rober
+*/
+
+*{
+    font-size: 15px;
+}
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 1000px;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 600px;
+    }
+  }
+
+.index{
+    background-image: url("../img/banner25.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+.navbar-sup{
+    margin-top: -7px;
+    margin-left: -100%;
+    margin-right: 0%;
+}
+
+.inter{
+    height: 45px;
+}
+.search-job{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-weight: bold;
+    margin-bottom: 15%;
+
+}
+
+.transparent{
+	opacity: 0;
+}
+
+.form-register{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.form-register p{
+    text-align: center;
+}
+
+.form-register h1{
+    text-align: center;
+}
+
+.form-register h3{
+    text-align: center;
+}
+
+/* Login */
+
+.content-login{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.form-login{
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.form-login button{
+	margin-top: 5%;
+	margin-bottom: 5%;	
+}
+
+.background-login{
+    background-image: url("../img/imagen-cerebro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.background-tec{
+    background-image: url("../img/tecnologiavector.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.form-login form{
+	margin-top: 1%;
+}
+
+.form-login p{
+    text-align: center;
+}
+
+.form-login h1{
+    text-align: center;
+}
+
+.form-login h3{
+    text-align: center;
+}
+
+.centrado{
+    margin-top: 1%;
+    margin-left: 50%;
+}
+
+.form-register .btn-gradient-porpuse-register{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 20px;
+            padding: 21px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);       
+     }
+  
+.form-register .btn-gradient-porpuse-register:hover{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 20px;
+            padding: 21px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);         
+     }
+
+.contenedor-search{
+    margin-left: 5%;
+    margin-right: 5%; 
+     background-color: rgba(0, 0, 0, .3);
+    color:white;   
+}
+
+.content-section h1{
+    text-align: center;
+}
+.content-section{
+    margin-bottom: 0px;
+}
+
+.content-section-login{
+    margin-bottom: 0px;
+    margin-top: -1%;
+    background: #1f262d;
+}
+
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+ 
+
+     .btn-gradient-porpuse-2{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 190px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);       
+     }
+  
+     .btn-gradient-porpuse-2:hover{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 190px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);         
+     }
+     
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  color: black;
+  text-align: center;
+  border-top:solid 1px grey;
+}
+
+.selection-web{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+hr{
+	margin-bottom: 0px;
+}
+
+.selection-web .title{
+	margin-top: 2%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.selection-web .text{
+    text-align: center;
+    color: white;
+}
+
+     .btn-gradient-porpuse-radius{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 40%;
+            margin-top: 10px;
+            margin-bottom: 20%;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+           border-radius: 72px 72px 72px 72px;
+            -moz-border-radius: 72px 72px 72px 72px;
+            -webkit-border-radius: 72px 72px 72px 72px;
+            border: 0px none #260126;
+     }
+  
+     .btn-gradient-porpuse-radius:hover{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 40%;
+            margin-top: 10px;
+            margin-bottom: 20%;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);    
+          border-radius: 72px 72px 72px 72px;
+            -moz-border-radius: 72px 72px 72px 72px;
+            -webkit-border-radius: 72px 72px 72px 72px;
+            border: 0px none #260126;
+     }
+     
+     
+     .btn-gradient-porpuse-radius-2{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 38%;
+            margin-top: 10px;
+            padding: 10px 100px;
+            width: 400px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.79);
+           border-radius: 72px 72px 72px 72px;
+            -moz-border-radius: 72px 72px 72px 72px;
+            -webkit-border-radius: 72px 72px 72px 72px;
+            border: 0px none #260126;
+     }
+  
+     .btn-gradient-porpuse-radius-2:hover{
+            background-color: #5c138b; /* Green */
+            border: none;
+            color: white;
+            margin-left: 38%;
+            width: 400px;
+            margin-top: 10px;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;  
+          -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);    
+          border-radius: 72px 72px 72px 72px;
+            -moz-border-radius: 72px 72px 72px 72px;
+            -webkit-border-radius: 72px 72px 72px 72px;
+            border: 0px none #260126;
+     }
+     
+     
+/*New Style */
+
