@@ -23,9 +23,8 @@
                  <ul>
                    <li><a href="index">Inicio</a></li>  
                    <li><a href="contacto">Solicitar cuenta</a></li>
-                   <li><a class="active" href="recomend">Recomendaciones</a></li>
                    <li><a href="search_job">Buscar empleo</a></li>
-                   <li><a href="about_us">About Us</a></li>
+
 	               <li><a href="<%=url %>"><%=texto2 %></a></li>
 	               <li><a href="<%=url2 %>"><%=texto %></a></li>
                  </ul>

@@ -57,7 +57,7 @@ public class routing extends HttpServlet {
 				request.getRequestDispatcher("404.jsp").forward(request, response); 
 				break;
 			case "/search_job":
-				request.getRequestDispatcher("404.jsp").forward(request, response); 
+				request.getRequestDispatcher("buscarEmpleo.jsp").forward(request, response); 
 				break;
 			case "/about_us":
 				request.getRequestDispatcher("404.jsp").forward(request, response); 

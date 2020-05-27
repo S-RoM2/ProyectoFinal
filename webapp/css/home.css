@@ -75,6 +75,13 @@ and open the template in the editor.
     margin-right: 20%;
 }
 
+.form-info2{
+	text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .form-register p{
     text-align: center;
 }

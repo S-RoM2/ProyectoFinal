@@ -36,7 +36,7 @@
 	                    somos la elección preferida de casi todas las empresas en el país, <br>
 	                    por lo que si quieres trabajo, nuestra plataforma es la ideal</p>
 	                <br>
-	                <button class="btn-gradient-porpuse-radius" type="submit">Registro ahora</button>
+	                <a class="btn-gradient-porpuse-radius" href="#">Registro ahora</a>
 	             </div>
             </section>
         </section>
